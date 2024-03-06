@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>HelmGuard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="static/login.css" >
+</head>
+<style>
+
+</style>
+<body>
+    <p class="text">
+        Welcome to HelmGuard !
+   </p>
+    <p class="text-bottom">
+        A helmet detection and number plate recognition site
+    </p>
+
+    <div class="form-box">
+        <p class="form-text">Please login before you continue</p>
+        <form id="loginForm">
+            <p class="uname">
+                <span class="field-text">Email</span><br>
+                <input type="email" class="input-field" id="text1" placeholder="Example123@gmail.com" required autocomplete="off">
+            </p>
+            <p class="pass">
+                <span class="field-text">Password</span><br>
+                <input type="password" class="input-field" id="text2" placeholder="****************" required autocomplete="off">
+            </p>
+            <p class="reme">
+                <span class="rememberme"><input type="checkbox"> Remember me  </span>
+                <span class="forget" id="sendOtp"><a href="/forgetPassword">Forget password?</a></span>
+            </p>
+			<p style="padding-top:20px">
+			<button class="submit-btn" id="login_btn">LOGIN</button></p>
+		</form>
+    </div>
+    
+    
+    <div class="main">
+        <img src="static/images/bg.png" alt="image">
+    </div>
+ 
+</body>
+<script src="static/loginValidation.js"></script>
+</html>

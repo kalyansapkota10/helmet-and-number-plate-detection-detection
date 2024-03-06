@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="static/forgetPassword.css">
+</head>
+<body>
+        
+    <form class="form">
+        <i class='bx bxs-error-circle' id="error"></i>
+        <h3>Forgot Password?</h3>
+        <h4 id="text">Enter your email and we'll send you an otp.</h4>
+        <label for="email" class="email">Email</label>
+    <input type="email" id="emailForOtp" autocomplete="off" required >
+    <div class="otpverify">
+        <label for="OTP" class="otp">OTP</label>
+        <input type="text" id="otp_inp"><br>
+        <button class="verify_btn" id="verifyBtn">Verify OTP</button>
+    </div>
+    <button class="sendotp_btn" id="sendBtn">Submit</button>
+    <div class="toLogin">
+        <a href="/">
+        <i class='bx bx-chevron-left' id="icon"></i>
+        <span class="back">Back</span>
+        </a>
+    </div>
+    </form>
+    </div> 
+
+<script src="static/forgetPassword.js"></script>
+</body>
+</html>

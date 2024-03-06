@@ -1,0 +1,123 @@
+.main{
+    height: 50vh; 
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.text{
+    margin-bottom: 0;
+    margin-top: 140px;
+    margin-left: 240px;
+    font-size: 44px;
+}
+.text-bottom{
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 450px;
+    font-size: 28px;
+    color: #6C6C6C;
+}
+.form-box{
+    background-color: #5E7CE2;
+    height: 680px;
+    width: 470px;
+    position: absolute; 
+    top: 48%; 
+    left: 65%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    padding: 20px; 
+    border-radius: 10px;
+}
+p{
+    font-family: Figtree;
+
+
+}
+.form-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.field-text{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.input-field{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+.uname{
+    margin-bottom: 30px;
+
+}
+
+.input-group{
+    margin-left: 40px;
+    margin-right: none;
+
+}
+.reme{
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+
+}
+.forget a {
+    color: #fff; 
+    text-decoration: none; 
+    margin-left: 135px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}   
+.forget:hover{
+    opacity: 0.8;
+
+}
+
+.forget:active{
+    opacity: 0.5;
+
+}
+
+.rememberme{
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.rememberme:hover{
+    opacity: 0.8;
+}
+.rememberme:active{
+    opacity: 0.5;
+}
+
+.submit-btn{
+    background-color: #0A369D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 93%;
+    height: 60px;
+    font-size: 28px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+.submit-btn:hover{
+    opacity: 0.8;
+}
+.submit-btn:active{
+    opacity: 0.5;
+}
